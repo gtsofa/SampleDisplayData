@@ -85,12 +85,15 @@ class DataTableCell: UITableViewCell {
     
     var singleData: SampleData! {
         didSet {
+            let nome = "Mobile"
             
             userNameLabel.text = singleData.username
-            saveAccountLabel.text = singleData.saveAccount
+            //saveAccountLabel.text = singleData.saveAccount
+            //saveAccountLabel.text = singleData?.accountType ?
             saveAmountLabel.text = singleData.saveAmount
             saveDatetLabel.text = singleData.saveDate
-            accountTypeLabel.text = singleData.accountType
+            accountTypeLabel.text = nome
+            //accountTypeLabel.text = singleData.accountType
         }
     }
     

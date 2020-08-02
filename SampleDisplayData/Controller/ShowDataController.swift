@@ -23,8 +23,10 @@ class ShowDataController: UITableViewController {
     
     let sampleArray = [SampleData(username: "Jac Bauer", saveAccount: "4100000000", saveAmount: "USD 5", saveDate: "2020-07-23 22:07:47", accountType: "bank"),
                        SampleData(username: "John Doe", saveAccount: "245722222222", saveAmount: "USD 20", saveDate: "2020-07-23 22:08:58", accountType: "mobile"),
-    SampleData(username: "Sara Maya", saveAccount: "4200000000", saveAmount: "USD 12", saveDate: "2020-07-25 22:08:58", accountType: "bank"),
+    SampleData(username: "Sara Mayas", saveAccount: "4200000000", saveAmount: "USD 12", saveDate: "2020-07-25 22:08:58", accountType: "bank"),
     SampleData(username: "Piet Pompies", saveAccount: "245745228888", saveAmount: "USD 15", saveDate: "2020-07-24 22:08:58", accountType: "mobile")]
+    
+    var realDataArray = ["Test User1#4100000000#USD 5#2020-07-23 22:07:47#bank", "Test User2#245722222222#USD 20#2020-07-23 22:07:47#mobile"]
     
     var newsampleDataArray = [SampleData]()
     
