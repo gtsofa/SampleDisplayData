@@ -29,7 +29,7 @@ class EditDeleteController: UIViewController, UITableViewDataSource, UITableView
     //MARK: - Initializers
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Edit | Delete"
+        navigationItem.title = "Edit Delete"
         attemptToGroupBeneficiaries()
         
         //attemptToGroupBeneficiaries()

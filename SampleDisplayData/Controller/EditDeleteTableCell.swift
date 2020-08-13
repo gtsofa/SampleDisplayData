@@ -33,7 +33,7 @@ class EditDeleteTableCell: UITableViewCell {
     let beneficiaryNameLabel: UILabel = {
         let label = UILabel()
         //label.text = "Julius Tsofa"
-        label.textColor = .green
+        label.textColor = .black
         label.font = UIFont.boldSystemFont(ofSize: 14)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -41,7 +41,7 @@ class EditDeleteTableCell: UITableViewCell {
     let contactLabel: UILabel = {
         let label = UILabel()
         label.text = "0726235055"
-        label.textColor = .green
+        label.textColor = .black
         label.font = UIFont.boldSystemFont(ofSize: 14)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -92,7 +92,7 @@ class EditDeleteTableCell: UITableViewCell {
         let button = UIButton(type: .custom)
         //let button = UIButton(type: .system)
         button.setTitleColor(.black, for: .normal)
-        button.setTitle("Send Money", for: .normal)
+        button.setTitle("Go Home", for: .normal)
         //let icon = UIImage(named: "send_button")!
         button.titleLabel!.font =  UIFont(name: "HelveticaNeue-Thin", size: 15)
         //button.setImage(icon, for: .normal)
@@ -131,9 +131,9 @@ class EditDeleteTableCell: UITableViewCell {
             beneficiaryProfileImage.image = singleBeneficiary.isBankBeneficiary ? UIImage(named: "bank_trans") : UIImage(named: "mobile_trans")
             
             beneficiaryNameLabel.text = singleBeneficiary.beneficiaryName
-            beneficiaryNameLabel.textColor = singleBeneficiary.isBankBeneficiary ? .orange : .green
+            beneficiaryNameLabel.textColor = singleBeneficiary.isBankBeneficiary ? .orange : .purple
             contactLabel.text = singleBeneficiary.availableData
-            contactLabel.textColor = singleBeneficiary.isBankBeneficiary ? .orange : .green
+            contactLabel.textColor = singleBeneficiary.isBankBeneficiary ? .orange : .purple
             
         }
     }
