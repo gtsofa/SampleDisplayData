@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
 
-        let viewController = ShowDataController()
+        let viewController = HomeController()//ShowDataController
         window.rootViewController = UINavigationController(rootViewController: viewController)//navigate to another screen
         window.makeKeyAndVisible()
 

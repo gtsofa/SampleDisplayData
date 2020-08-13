@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C618DA8824E58726005780B2 /* EditDeleteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C618DA8724E58726005780B2 /* EditDeleteController.swift */; };
+		C618DA8A24E58E2C005780B2 /* EditDeleteTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C618DA8924E58E2C005780B2 /* EditDeleteTableCell.swift */; };
+		C618DA8C24E58EB4005780B2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C618DA8B24E58EB4005780B2 /* HomeController.swift */; };
 		C66F125F24D724490054398C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66F125E24D724490054398C /* AppDelegate.swift */; };
 		C66F126124D724490054398C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66F126024D724490054398C /* SceneDelegate.swift */; };
 		C66F126324D724490054398C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66F126224D724490054398C /* ViewController.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C618DA8724E58726005780B2 /* EditDeleteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDeleteController.swift; sourceTree = "<group>"; };
+		C618DA8924E58E2C005780B2 /* EditDeleteTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDeleteTableCell.swift; sourceTree = "<group>"; };
+		C618DA8B24E58EB4005780B2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		C66F125B24D724490054398C /* SampleDisplayData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleDisplayData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C66F125E24D724490054398C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C66F126024D724490054398C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +144,9 @@
 			children = (
 				C66F129024D724D90054398C /* ShowDataController.swift */,
 				C66F129224D726B10054398C /* DataTableCell.swift */,
+				C618DA8724E58726005780B2 /* EditDeleteController.swift */,
+				C618DA8924E58E2C005780B2 /* EditDeleteTableCell.swift */,
+				C618DA8B24E58EB4005780B2 /* HomeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -272,10 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C618DA8824E58726005780B2 /* EditDeleteController.swift in Sources */,
 				C66F129324D726B10054398C /* DataTableCell.swift in Sources */,
 				C66F126324D724490054398C /* ViewController.swift in Sources */,
 				C66F125F24D724490054398C /* AppDelegate.swift in Sources */,
 				C66F129524D7274E0054398C /* Extension.swift in Sources */,
+				C618DA8C24E58EB4005780B2 /* HomeController.swift in Sources */,
+				C618DA8A24E58E2C005780B2 /* EditDeleteTableCell.swift in Sources */,
 				C66F129124D724D90054398C /* ShowDataController.swift in Sources */,
 				C66F126124D724490054398C /* SceneDelegate.swift in Sources */,
 			);
